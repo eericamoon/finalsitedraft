@@ -1,0 +1,394 @@
+<!DOCTYPE HTML>
+<!--
+  Prologue by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Studio HK — Washington, D.C. photographer specializing in pet, family, graduation & creative portraits." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Studio HK</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- Style updates for My Work section -->
+    <style>
+      /* Summary arrow below heading */
+      details.album summary {
+        list-style: none;
+      }
+      details.album summary::-webkit-details-marker {
+        display: none;
+      }
+      details.album summary:after {
+        content: '▸';
+        display: block;
+        text-align: center;
+        margin-top: 0.5em;
+        font-size: 1.25em;
+      }
+      details.album[open] summary:after {
+        content: '▾';
+      }
+
+      /* My Work: default three-column grid */
+      details.album .row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+      }
+      /* Family Portraits only: two-column grid */
+      details.album.family .row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      details.album .row figure {
+        margin: 0;
+      }
+      details.album .row img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <!-- Sidebar/Header -->
+    <header id="header" role="banner">
+      <div class="top">
+        <div id="logo">
+          <span class="image avatar48">
+            <img src="images/profilepic.jpg" alt="Your Portrait" />
+          </span>
+          <h1 id="title">Studio HK</h1>
+          <p>Photographer</p>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+            <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+            <li><a href="#work" id="work-link"><span class="icon solid fa-th">My Work</span></a></li>
+            <li><a href="#rates" id="rates-link"><span class="icon solid fa-dollar-sign">My Rates</span></a></li>
+            <li><a href="#inquiries" id="inquiries-link"><span class="icon solid fa-envelope">Inquiries</span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="bottom">
+        <ul class="icons">
+          <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="#" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main" role="main">
+
+      <!-- Banner -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <picture>
+            <source media="(min-width: 800px)" srcset="images/banner-large.jpg" />
+            <source media="(min-width: 500px)" srcset="images/banner-medium.jpg" />
+            <img src="images/banner.jpg"/>
+          </picture>
+          <header>
+            <h2>Welcome to…<strong>Studio HK</strong></h2>
+          </header>
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="about" class="two">
+        <div class="container">
+          <header><h2>About Me</h2></header>
+          <span class="image featured">
+            <img src="images/profilepic.jpg" alt="Your Portrait" style="max-width:280px; 
+            width:60%; margin:0 auto; display:block; border-radius:1.5em; box-shadow:0 
+            8px 32px 0 rgba(0,0,0,0.12);"/>
+          </span>
+          <p><em>“Photography takes an instant out of time, altering life by holding it still.”</em></p>
+          <p>I am a photographer based in Washington D.C. My English name is Erica Moon, but my Korean name 
+          is Moon Hyung Kyung (hence, HK photography). I'm a full-time student at GMU, pursuing an 
+          English degree, but photography will always have a special place in my heart. I hope you enjoy 
+          viewing people & places through my lens!</p>
+        </div>
+      </section>
+
+      <!-- My Work -->
+      <section id="work" class="three">
+        <div class="container">
+          <header><h2>My Work</h2></header>
+
+          <details class="album">
+            <summary><h3>Prom and Homecoming</h3></summary>
+            <div class="row">
+              <figure class="image fit">
+                <img src="images/pic01.jpg" alt="Prom 2023" />
+                <figcaption>Prom 2023</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/pic02.jpg" alt="Candid Duo" />
+                <figcaption>Candid Duo</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/pic04.jpg" alt="A&amp;Z" />
+                <figcaption>A&amp;Z</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/pic07.jpg" alt="Princess Energy" />
+                <figcaption>Princess Energy</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/pic08.jpg" alt="M&amp;Z" />
+                <figcaption>M&amp;Z</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/pic09.jpg" alt="Girls Do It Best" />
+                <figcaption>Girls Do It Best</figcaption>
+              </figure>
+            </div>
+          </details>
+
+          <details class="album">
+            <summary><h3>Graduation</h3></summary>
+            <div class="row">
+              <figure class="image fit">
+                <img src="images/img11.jpg" alt="Reminiscing" />
+                <figcaption>Reminiscing</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img12.jpg" alt="Day Filled with Warm Hugs" />
+                <figcaption>Day Filled with Warm Hugs</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img13.jpg" alt="Where did the time go?" />
+                <figcaption>Where did the time go?</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img14.jpg" alt="Class of 2023" />
+                <figcaption>Class of 2023</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img15.jpg" alt="Happy Day" />
+                <figcaption>Happy Day</figcaption>
+              </figure>
+            </div>
+          </details>
+
+          <details class="album family">
+            <summary><h3>Family Portraits</h3></summary>
+            <div class="row">
+              <figure class="image fit">
+                <img src="images/img07.jpg" alt="Brothers" />
+                <figcaption>Brothers</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img08.jpg" alt="Mom &amp; Dad of Z" />
+                <figcaption>Mom &amp; Dad of Z</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img09.jpg" alt="The Women of the Family" />
+                <figcaption>The Women of the Family</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img10.jpg" alt="Sibling Love" />
+                <figcaption>Sibling Love</figcaption>
+              </figure>
+            </div>
+          </details>
+
+          <details class="album">
+            <summary><h3>Creative</h3></summary>
+            <div class="row">
+              <figure class="image fit">
+                <img src="images/pic10.jpg" alt="Meet me at the Court" />
+                <figcaption>Meet me at the Court</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/pic11.jpg" alt="Side Profile" />
+                <figcaption>Side Profile</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img01.jpg" alt="Let's Go Picking" />
+                <figcaption>Let's Go Picking</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img02.jpg" alt="Gloomy Beach Days" />
+                <figcaption>Gloomy Beach Days</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img04.jpg" alt="Kiawah, SC" />
+                <figcaption>Kiawah, SC</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img03.jpg" alt="Flamingo in Disguise" />
+                <figcaption>Flamingo in Disguise</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img05.jpg" alt="Lagoon Puppy" />
+                <figcaption>Lagoon Puppy</figcaption>
+              </figure>
+              <figure class="image fit">
+                <img src="images/img06.jpg" alt="It Was All A Blur" />
+                <figcaption>It Was All A Blur</figcaption>
+              </figure>
+            </div>
+          </details>
+
+        </div>
+      </section>
+
+      <!-- My Rates -->
+      <section id="rates" class="four">
+        <div class="container">
+          <header><h2>My Rates</h2></header>
+          <p><strong>Session Rate:</strong> $50/hour</p>
+          <p><strong>Additional Prints:</strong> $5 each / Bundle of 25 Prints for $100</p> 
+        </div>
+      </section>
+
+      <!-- Inquiries -->
+      <section id="inquiries" class="five">
+        <div class="container">
+          <header><h2>Inquiries</h2></header>
+          <form method="post" action="mailto:ericamoooon@gmail.com" enctype="text/plain">
+
+            <fieldset>
+              <legend>Personal Information</legend>
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-mobile">
+                  <input type="text" name="first_name" placeholder="First Name" required />
+                </div>
+                <div class="col-6 col-12-mobile">
+                  <input type="text" name="last_name" placeholder="Last Name" required />
+                </div>
+                <div class="col-6 col-12-mobile">
+                  <select name="state" required>
+                    <option value="" disabled selected>State of Residence</option>
+                    <optgroup label="Primary Coverage">
+                      <option value="District of Columbia">District of Columbia</option>
+                      <option value="Maryland">Maryland</option>
+                      <option value="Virginia">Virginia</option>
+                    </optgroup>
+                    <optgroup label="Other States">
+                      <option value="Alabama">Alabama</option>
+                      <option value="Alaska">Alaska</option>
+                      <option value="Arizona">Arizona</option>
+                      <option value="Arkansas">Arkansas</option>
+                      <option value="California">California</option>
+                      <option value="Colorado">Colorado</option>
+                      <option value="Connecticut">Connecticut</option>
+                      <option value="Delaware">Delaware</option>
+                      <option value="Florida">Florida</option>
+                      <option value="Georgia">Georgia</option>
+                      <option value="Hawaii">Hawaii</option>
+                      <option value="Idaho">Idaho</option>
+                      <option value="Illinois">Illinois</option>
+                      <option value="Indiana">Indiana</option>
+                      <option value="Iowa">Iowa</option>
+                      <option value="Kansas">Kansas</option>
+                      <option value="Kentucky">Kentucky</option>
+                      <option value="Louisiana">Louisiana</option>
+                      <option value="Maine">Maine</option>
+                      <option value="Massachusetts">Massachusetts</option>
+                      <option value="Michigan">Michigan</option>
+                      <option value="Minnesota">Minnesota</option>
+                      <option value="Mississippi">Mississippi</option>
+                      <option value="Missouri">Missouri</option>
+                      <option value="Montana">Montana</option>
+                      <option value="Nebraska">Nebraska</option>
+                      <option value="Nevada">Nevada</option>
+                      <option value="New Hampshire">New Hampshire</option>
+                      <option value="New Jersey">New Jersey</option>
+                      <option value="New Mexico">New Mexico</option>
+                      <option value="New York">New York</option>
+                      <option value="North Carolina">North Carolina</option>
+                      <option value="North Dakota">North Dakota</option>
+                      <option value="Ohio">Ohio</option>
+                      <option value="Oklahoma">Oklahoma</option>
+                      <option value="Oregon">Oregon</option>
+                      <option value="Pennsylvania">Pennsylvania</option>
+                      <option value="Rhode Island">Rhode Island</option>
+                      <option value="South Carolina">South Carolina</option>
+                      <option value="South Dakota">South Dakota</option>
+                      <option value="Tennessee">Tennessee</option>
+                      <option value="Texas">Texas</option>
+                      <option value="Utah">Utah</option>
+                      <option value="Vermont">Vermont</option>
+                      <option value="Washington">Washington</option>
+                      <option value="West Virginia">West Virginia</option>
+                      <option value="Wisconsin">Wisconsin</option>
+                      <option value="Wyoming">Wyoming</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <div class="col-6 col-12-mobile">
+                  <select name="purpose" required>
+                    <option value="" disabled selected>-- Purpose for Booking --</option>
+                    <option value="Pet Portraits">Pet Portraits</option>
+                    <option value="Family Portraits">Family Portraits</option>
+                    <option value="Graduation">Graduation</option>
+                    <option value="Creative">Creative</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Contact Details</legend>
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-mobile">
+                  <input
+                    type="text"
+                    name="phone"
+                    placeholder="(123) 456-7890"
+                    pattern="^\(\d{3}\)\s?\d{3}-\d{4}$"
+                    title="Format: (123) 456-7890"
+                    required
+                  />
+                </div>
+                <div class="col-6 col-12-mobile">
+                  <input type="email" name="email" placeholder="Email Address" required />
+                </div>
+                <div class="col-12">
+                  <textarea name="message" placeholder="Additional Details" rows="4"></textarea>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="row">
+              <div class="col-12">
+                <input type="submit" value="Send Inquiry" class="button primary" />
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" role="contentinfo">
+      <address>
+        Studio HK<br />
+        Washington, D.C.<br />
+        <a href="mailto:ericamoooon@gmail.com">ericamoooon@gmail.com</a>
+      </address>
+      <ul class="copyright">
+        <li>&copy; Studio HK. All rights reserved.</li>
+      </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
