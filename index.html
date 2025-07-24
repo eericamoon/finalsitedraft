@@ -64,7 +64,7 @@
           <h1 id="title">Studio HK</h1>
           <p>Photographer</p>
         </div>
-        <nav id="nav">c
+        <nav id="nav">
           <ul>
             <li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
             <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
@@ -89,10 +89,9 @@
       <section id="top" class="one dark cover">
         <div class="container">
           <picture>
-            
-            <img src="images/banner.jpg" style="max-width:280px; 
-            width:60%; margin:0 auto; display:block; border-radius:1.5em; box-shadow:0 
-            8px 32px 0 rgba(0,0,0,0.12);"/>
+            <source media="(min-width: 800px)" srcset="images/banner-large.jpg" />
+            <source media="(min-width: 500px)" srcset="images/banner-medium.jpg" />
+            <img src="images/banner.jpg"/>
           </picture>
           <header>
             <h2>Welcome to…<strong>Studio HK</strong></h2>
@@ -376,7 +375,7 @@
       <address>
         Studio HK<br />
         Washington, D.C.<br />
-        
+        <a href="mailto:ericamoooon@gmail.com">ericamoooon@gmail.com</a>
       </address>
       <ul class="copyright">
         <li>&copy; Studio HK. All rights reserved.</li>
