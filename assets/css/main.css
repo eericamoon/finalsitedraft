@@ -2697,3 +2697,35 @@ h2, h3, h4, h5, h6 {
 }
 
 
+/* Album arrow beside album heading, clickable as part of summary */
+.album-arrow {
+  font-size: 1.4em;
+  margin-left: 0.35em;
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.2s;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* If you want a little color or boldness: */
+.album-arrow {
+  color: #3e2c1c;
+  font-weight: normal;
+}
+
+/* Optionally: Make summary headings look like a button on hover/focus for accessibility */
+details.album summary {
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  transition: background 0.15s;
+  border-radius: 0.3em;
+  padding: 0.15em 0.4em;
+  display: inline-block;
+}
+details.album summary:focus, details.album summary:hover {
+  background: rgba(141, 135, 65, 0.07);
+}
+
+
