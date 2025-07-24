@@ -2638,7 +2638,7 @@ input, select, textarea {
 	}
 	
 	/* ───────────────────────────────────────────────────
-   Earthy Theme Overrides
+   Earthy Theme
 ─────────────────────────────────────────────────── */
 
 /* Body background & text */
@@ -2697,7 +2697,7 @@ h2, h3, h4, h5, h6 {
 }
 
 
-/* Album arrow beside album heading, clickable as part of summary */
+/* Clickable album arrow as part of summary */
 .album-arrow {
   font-size: 1.4em;
   margin-left: 0.35em;
@@ -2708,13 +2708,13 @@ h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
-/* If you want a little color or boldness: */
+/* Adding color and weighting to the arrow: */
 .album-arrow {
   color: #3e2c1c;
   font-weight: normal;
 }
 
-/* Optionally: Make summary headings look like a button on hover/focus for accessibility */
+/* Makes summary headings look like a button on hover/focus */
 details.album summary {
   cursor: pointer;
   outline: none;
